@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Porfolio Bootstrap</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="assets/style/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand bg-body-tertiary sticky-top">
+      <div class="container-fluid bgcolor2">
+        <img
+          class="d-none d-xxl-block d-xl-block img"
+          src="./assets/img/logo.png"
+          alt="logo"
+        />
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-5">
+            <li class="nav-item">
+              <a class="nav-link links" aria-current="page" href="#Knowledge"
+                >Knowledge</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link links" href="#Projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link links" href="#Services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link links" href="#About">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link links" href="#Contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <button
+          type="button"
+          class="btn btn-primary mx-5 d-none d-xxl-block d-xl-block bgcolor"
+        >
+          Mail
+        </button>
+      </div>
+    </nav>
+    <div class="container-fluid bgcolor p-5">
+      <div class="row">
+        <div class="col d-flex flex-column gap-5 align-items-center">
+          <img
+            class="w-25"
+            src="https://www.iconbolt.com/iconsets/mono-icons/computer.svg"
+            alt="comp"
+          />
+          <img
+            class="w-25"
+            src="https://www.iconbolt.com/iconsets/clarity-solid/computer.svg"
+            alt="lapt"
+          />
+        </div>
+        <div
+          class="col d-flex flex-column justify-content-between align-items-center"
+        >
+          <h1 class="fs-1">Hello</h1>
+          <p>I'm <span class="fs-3">Marko Cvetklović </span></p>
+          <p>web developer and programmer.</p>
+        </div>
+        <div class="col d-flex flex-column gap-5 align-items-center">
+          <img
+            class="w-25"
+            src="https://www.iconbolt.com/iconsets/linearicons/tablet.svg"
+            alt="tabl"
+          />
+          <img
+            class="w-25"
+            src="https://www.iconbolt.com/iconsets/fluent-regular/phone.svg"
+            alt="phon"
+          />
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid bgcolor2 p-5" id="Knowledge">
+      <div class="row">
+        <h2 class="d-flex justify-content-center">Knowledge</h2>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="3"
+                aria-label="Slide 4"
+              ></button>
+            </div>
+            <div class="carousel-inner p-5 d-flex offset-3 w-75">
+              <div class="carousel-item active">
+                <img
+                  src="https://www.iconbolt.com/iconsets/akar-icons/html-fill.svg"
+                  class="d-block w-50 bgcolor"
+                  alt="html"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="https://www.iconbolt.com/iconsets/akar-icons/css-fill.svg"
+                  class="d-block w-50 bgcolor"
+                  alt="css"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="https://www.iconbolt.com/iconsets/unicons/java-script.svg"
+                  class="d-block w-50 bgcolor"
+                  alt="js"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="https://www.iconbolt.com/iconsets/teenyicons-outline/react.svg"
+                  class="d-block w-50 bgcolor"
+                  alt="react"
+                />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid bgcolor p-5" id="Projects">
+      <div class="row">
+        <h2 class="d-flex justify-content-center">Projects</h2>
+      </div>
+      <div class="row ps-5">
+        <div class="col">
+          <div
+            class="card m-5 d-flex align-items-center pt-5"
+            style="width: 18rem"
+          >
+            <img src="./assets/img/hrana.png" class="card-img-top" alt="food" />
+            <div class="card-body">
+              <p class="card-text">Food site</p>
+            </div>
+          </div>
+          <div class="card m-5 d-flex align-items-center" style="width: 18rem">
+            <img
+              src="./assets/img/jupiter.jpg"
+              class="card-img-top"
+              alt="jupiter"
+            />
+            <div class="card-body">
+              <p class="card-text">Jupiter site</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card m-5 d-flex align-items-center" style="width: 18rem">
+            <img
+              src="./assets/img/site.png"
+              class="card-img-top"
+              alt="EdgeLEader"
+            />
+            <div class="card-body">
+              <p class="card-text">EdgeLeder site</p>
+            </div>
+          </div>
+          <div
+            class="card m-5 d-flex align-items-center pt-5 pb-5"
+            style="width: 18rem"
+          >
+            <img
+              src="./assets/img/ubuntu.png"
+              class="card-img-top"
+              alt="Ubuntu"
+            />
+            <div class="card-body">
+              <p class="card-text">Ubuntu site</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid bgcolor2 p-5 text-center" id="Services">
+      <h2 class="titleh">Services</h2>
+      <div class="servi d-flex flex-column align-items-center p-5">
+        <div class="servic d-flex gap-3">
+          <p>Build a Webpage with HTML & CSS</p>
+          <i class="fa-brands fa-web-awesome"></i>
+        </div>
+        <div class="servic d-flex gap-3">
+          <i class="fa-brands fa-webflow"></i>
+          <p>Creating a Web applications</p>
+        </div>
+        <div class="servic d-flex gap-3">
+          <p>Motion graphic</p>
+          <i class="fa-solid fa-film"></i>
+        </div>
+        <div class="servic d-flex gap-3">
+          <i class="fa-solid fa-database"></i>
+          <p>Making a Back-End server</p>
+        </div>
+        <div class="servic d-flex gap-3">
+          <p>Working with git</p>
+          <i class="fa-brands fa-git"></i>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid bgcolor p-5 text-center" id="About">
+      <h2 class="titleh">More <span class="fst-italic">about me</span></h2>
+      <div class="row">
+        <div class="col-md-5 p-5 offset-1">
+          <p>
+            Hello there! I'm a Web developer & programmer based in Serbia,
+            passionate about helping companies to stand out.
+          </p>
+          <p>
+            Actually, I've always struggled to identify with a specific job
+            title because I've never wanted to specialize in just one thing. I
+            love programming in all its forms and I enjoy exploring the areas
+            that interest me the most while learning new things every day.
+          </p>
+        </div>
+        <div class="col-md-6">
+          <img src="./assets/img/me.jpg" alt="me" class="w-25 rounded" />
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid bgcolor2 p-5 text-center" id="Contact">
+      <h2>Contact</h2>
+      <form style="width: 26rem" class="text-center col-6 offset-md-4 p-5">
+        <!-- Name input -->
+        <div data-mdb-input-init class="form-outline mb-4">
+          <input type="text" id="form4Example1" class="form-control" />
+          <label class="form-label" for="form4Example1">Name</label>
+        </div>
+
+        <!-- Email input -->
+        <div data-mdb-input-init class="form-outline mb-4">
+          <input type="email" id="form4Example2" class="form-control" />
+          <label class="form-label" for="form4Example2">Email address</label>
+        </div>
+
+        <!-- Message input -->
+        <div data-mdb-input-init class="form-outline mb-4">
+          <textarea class="form-control" id="form4Example3" rows="4"></textarea>
+          <label class="form-label" for="form4Example3">Message</label>
+        </div>
+
+        <!-- Checkbox -->
+        <div class="form-check d-flex justify-content-center mb-4">
+          <input
+            class="form-check-input me-2"
+            type="checkbox"
+            value=""
+            id="form4Example4"
+            checked
+          />
+          <label class="form-check-label" for="form4Example4">
+            Send me a copy of this message
+          </label>
+        </div>
+
+        <!-- Submit button -->
+        <button
+          data-mdb-ripple-init
+          type="button"
+          class="btn btn-primary btn-block mb-4"
+        >
+          Send
+        </button>
+      </form>
+    </div>
+    <footer class="container-fluid bgcolor p-2 d-flex justify-content-between">
+      <p>&copy; 2024 by Marko Cvetklović</p>
+      <a class="link" href="#">Top</a>
+    </footer>
+  </body>
+</html>
