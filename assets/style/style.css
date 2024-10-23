@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.links {
+  color: rgb(93, 147, 229);
+}
+.img {
+  width: 10%;
+}
+.bgcolor {
+  background-color: rgb(93, 147, 229);
+  color: rgb(3, 9, 18);
+}
+.bgcolor2 {
+  background-color: rgb(3, 9, 18);
+  color: rgb(93, 147, 229);
+}
+.link{
+  color: rgb(3, 9, 18);
+  text-decoration: none;
+}
